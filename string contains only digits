@@ -1,0 +1,5 @@
+let value = '123';
+
+let result = /^\d+$/.test(value);
+
+console.log(result);  // true
